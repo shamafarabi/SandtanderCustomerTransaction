@@ -1,4 +1,4 @@
- # 1. SandtanderCustomer Transaction Prediction
+# 1. SandtanderCustomer Transaction Prediction
 This respository has my ML solutions for the Santander-Customer-Transaction-Prediction Kaggle's Challenge. A link to the Kaggle site  for this competition can be found [here.](https://www.kaggle.com/c/santander-customer-transaction-prediction). Descriptions of the dataset and other files in this repository can be found at the end of this README file.
 
 # 2. Goal of the Project
@@ -34,6 +34,12 @@ When modeling was performed with 25 features without doing a hyperparamter searc
                  > XGBoost                 >> NO          >> 50                >> 0.832 <br>
                  > XGBoost                 >> NO          >> 100              >> 0.849 <br>
                  > XGBoost                 >> NO          >> 150               >> 0.849 <br>
+                 
+| Model |  GridSearch |  No of Selected Features | Kaggle Leaderboard Score|
+| --- | --- | --- | --- |
+| Logistic Regression| NO |25|0.753|
+| --- | --- | --- | --- |
+| Logistic Regression| YES |25|0.754|
   
 # 5. Conclusion:
 
