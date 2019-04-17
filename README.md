@@ -1,4 +1,4 @@
-# 1. SandtanderCustomer Transaction Prediction
+ # 1. SandtanderCustomer Transaction Prediction
 This respository has my ML solutions for the Santander-Customer-Transaction-Prediction Kaggle's Challenge. A link to the Kaggle site  for this competition can be found [here.](https://www.kaggle.com/c/santander-customer-transaction-prediction). Descriptions of the dataset and other files in this repository can be found at the end of this README file.
 
 # 2. Goal of the Project
@@ -27,13 +27,13 @@ Detailed explnaton of the steps taken can be found in the *Santander.ipynb* note
 When modeling was performed with 25 features without doing a hyperparamter search, XGBoost and logisitic Regression were found to be the best performing models in terms of the CV score using the training dataset. Therefore, further iterations with different number of features and hyperparamter optimization was performed using these two models . Below is the table for all iterations and the scores  obtained after making submissions with different iterations. 
 
  Kaggle LB Score : <br>
-                  >Model               >>GridSearch  >>No of Features  >>Kaggle Leaderboard Score <br>  
-                 >Logistic Regression     >>NO          >>25               >> 0.753 <br>
-                 >Logistic Regression     >>YES         >>25               >> 0.754 <br>
-                 >XGBoost                 >>NO          >>25                >>0.786 <br>
-                 >XGBoost                 >>NO          >>50                >>0.832 <br>
-                 >XGBoost                 >>NO          >>100              >>0.849 <br>
-                 >XGBoost                 >>NO          >>150               >>0.849 <br>
+                  > Model               >> GridSearch  >> No of Features  >> Kaggle Leaderboard Score <br>  
+                 > Logistic Regression     >> NO          >> 25               >> 0.753 <br>
+                 > Logistic Regression     >> YES         >> 25               >> 0.754 <br>
+                 > XGBoost                 >> NO          >> 25                >> 0.786 <br>
+                 > XGBoost                 >> NO          >> 50                >> 0.832 <br>
+                 > XGBoost                 >> NO          >> 100              >> 0.849 <br>
+                 > XGBoost                 >> NO          >> 150               >> 0.849 <br>
   
 # 5. Conclusion:
 
