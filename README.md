@@ -5,8 +5,10 @@ This respository has my ML solutions for the Santander-Customer-Transaction-Pred
 Using the dataset provided by Santander in the competition website, the goal was to identify which customers will make a specific transaction in the future, irrespective of the amount of money transacted. The data provided for this competition has the same structure as the real data Santander had available to solve this problem.
 
 # 3. File Descriptions
-* *Santander.ipynb* the code and explanation of the steps taken
-* *train.csv* - the training set.
+* *SantanderPrediction.ipynb* the code and explanation of the steps taken
+* *train.csv* - the training set
+* *test.csv* - the test set. The task in this project is to predict the value of target column for the test set
+* *requirements.txt* - a list of packages used for this project
 
 # 4. Solution Approach
 The problem is treated as a binary classification problem as the final goal is to determine whether a customer will make a transaction or not. After importing all the necessary packages for data pre-processing, visualization and modeling, the steps I followed to solve this problem are as below
