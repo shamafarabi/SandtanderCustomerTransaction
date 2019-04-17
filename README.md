@@ -26,14 +26,14 @@ Detailed explnaton of the steps taken can be found in the *Santander.ipynb* note
 
 When modeling was performed with 25 features without doing a hyperparamter search, XGBoost and logisitic Regression were found to be the best performing models in terms of the CV score using the training dataset. Therefore, further iterations with different number of features and hyperparamter optimization was performed using these two models . Below is the table for all iterations and the scores  obtained after making submissions with different iterations. 
 
- Kaggle LB Score : 
-                  Model               GridSearch  No of Features  Kaggle Leaderboard Score <br>  
-                 Logistic Regression     NO          25                0.753 <br>
-                 Logistic Regression     YES         25                0.754 <br>
-                 XGBoost                 NO          25                0.786 <br>
-                 XGBoost                 NO          50                0.832 <br>
-                 XGBoost                 NO          100               0.849 <br>
-                 XGBoost                 NO          150               0.849 <br>
+ Kaggle LB Score : <br>
+                  >Model               >>GridSearch  >>No of Features  >>Kaggle Leaderboard Score <br>  
+                 >Logistic Regression     >>NO          >>25               >> 0.753 <br>
+                 >Logistic Regression     >>YES         >>25               >> 0.754 <br>
+                 >XGBoost                 >>NO          >>25                >>0.786 <br>
+                 >XGBoost                 >>NO          >>50                >>0.832 <br>
+                 >XGBoost                 >>NO          >>100              >>0.849 <br>
+                 >XGBoost                 >>NO          >>150               >>0.849 <br>
   
 # 5. Conclusion:
 
