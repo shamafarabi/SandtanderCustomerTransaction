@@ -1,5 +1,5 @@
 # 1. SandtanderCustomer Transaction Prediction
-This respository has my ML solutions for the Santander-Customer-Transaction-Prediction Kaggle's Challenge. A link to the Kaggle site  for this competition can be found [here.](https://www.kaggle.com/c/santander-customer-transaction-prediction). Descriptions of the dataset and other files in this repository can be found at the end of this README file.
+This respository has my ML solutions for the Santander-Customer-Transaction-Prediction Kaggle's Challenge. A link to the Kaggle site  for this competition can be found [here.](https://www.kaggle.com/c/santander-customer-transaction-prediction). 
 
 # 2. Goal of the Project
 Using the dataset provided by Santander in the competition website, the goal was to identify which customers will make a specific transaction in the future, irrespective of the amount of money transacted. The data provided for this competition has the same structure as the real data Santander had available to solve this problem.
@@ -9,6 +9,7 @@ Using the dataset provided by Santander in the competition website, the goal was
 * *train.csv* - the training set
 * *test.csv* - the test set. The task in this project is to predict the value of target column for the test set
 * *requirements.txt* - a list of packages used for this project
+* *train.csv* and *test.csv* can be downloaded from the [competition website.](https://www.kaggle.com/c/santander-customer-transaction-prediction/data)
 
 # 4. Solution Approach
 The problem is treated as a binary classification problem as the final goal is to determine whether a customer will make a transaction or not. After importing all the necessary packages for data pre-processing, visualization and modeling, the steps I followed to solve this problem are as below
